@@ -1,0 +1,23 @@
+.button:focused {
+    -fx-effect: dropshadow(gaussian, #b4d1f3, 3, 3, 0, 0);}
+.button {
+    -fx-font-size: 16;
+	-fx-background-radius: 5000;
+	-fx-border-radius: 1000;
+	-fx-pref-height: 50;
+	-fx-min-width: 140;
+    -fx-font-family: Arial Black;
+    -fx-color: white;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+.root {
+    -fx-background-image: url("main.jpg");
+    -fx-background-size: 600px 200px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: bottom 200px right 1px;
+
+
+}
+
+

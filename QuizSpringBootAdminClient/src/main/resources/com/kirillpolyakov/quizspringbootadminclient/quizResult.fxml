@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="338.0" prefWidth="478.0" stylesheets="@main2.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kirillpolyakov.quizspringbootadminclient.controller.QuizResultController">
+   <children>
+      <TableView fx:id="tableViewAnswer" prefHeight="254.0" prefWidth="477.0" styleClass="anchor-pane" />
+      <Label layoutX="14.0" layoutY="262.0" text="Statistic" />
+      <Label layoutX="14.0" layoutY="286.0" text="Correct/Incorrect" />
+      <Label layoutX="14.0" layoutY="311.0" text="CorrectAnswerRate" />
+      <Label fx:id="labelCorIncor" layoutX="127.0" layoutY="286.0" text="CorIncor" />
+      <Label fx:id="labelProcent" layoutX="127.0" layoutY="311.0" text="Procent" />
+   </children>
+</AnchorPane>

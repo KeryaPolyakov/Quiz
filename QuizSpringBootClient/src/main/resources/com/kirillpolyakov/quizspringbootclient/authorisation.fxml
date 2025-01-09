@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="242.0" prefWidth="226.0" styleClass="anchor-pane" stylesheets="@main2.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kirillpolyakov.quizspringbootclient.controller.AuthorizationController">
+   <children>
+      <Button fx:id="buttonSignIn" layoutX="81.0" layoutY="147.0" mnemonicParsing="false" onAction="#buttonSignIn" text="SignIn" />
+      <TextField fx:id="textFieldLogin" layoutX="37.0" layoutY="44.0" />
+      <TextField fx:id="textFieldPassword" layoutX="37.0" layoutY="106.0" />
+      <Label layoutX="82.0" layoutY="14.0" text="Username">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="82.0" layoutY="80.0" text="Password">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button fx:id="buttonSignUp" layoutX="78.0" layoutY="187.0" mnemonicParsing="false" onAction="#buttonSignUp" text="SignUp" />
+   </children>
+</AnchorPane>

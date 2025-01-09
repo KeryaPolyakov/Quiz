@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="365.0" prefWidth="384.0" styleClass="anchor-pane" stylesheets="@main2.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kirillpolyakov.quizspringbootadminclient.controller.MainController">
+   <children>
+      <ListView fx:id="listViewUsers" layoutX="23.0" layoutY="80.0" prefHeight="239.0" prefWidth="337.0" />
+      <Button layoutX="24.0" layoutY="329.0" mnemonicParsing="false" onAction="#buttonExit" text="Exit" />
+      <Button layoutX="242.0" layoutY="329.0" mnemonicParsing="false" onAction="#buttonAddAdmin" text="Add new admin" />
+      <Label layoutX="21.0" layoutY="42.0" text="If you want to see user's info or statistics of his games, ">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="89.0" layoutY="60.0" text="please chose user from table ">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="155.0" layoutY="4.0" text="QUIZ">
+         <font>
+            <Font name="YouYuan" size="35.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

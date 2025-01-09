@@ -1,0 +1,64 @@
+### authenticate
+GET localhost:8080/user/authentication
+Authorization: Basic 111 111
+
+### add simple user
+POST localhost:8080/simpleUser
+Content-Type: application/json
+
+{
+  "type" : "simpleUser",
+  "username": "1111",
+  "password": "1111",
+  "name": "kir",
+  "surname": "kir"
+}
+
+### add admin
+POST localhost:8080/admin
+Content-Type: application/json
+Authorization: Basic admin admin
+
+{
+  "type" : "admin",
+  "username": "admin2",
+  "password": "admin2"
+}
+
+### get quizResult
+GET localhost:8080/quiz_result?amount=8&category=15&difficulty=easy&userId=2
+Authorization: Basic kir pol
+
+### get quizResult for admin fail
+GET localhost:8080/quiz_result?amount=5&category=15&difficulty=easy&userId=1
+Authorization: Basic admin admin
+
+### get all requests by userId
+GET localhost:8080/request/2
+Authorization: Basic admin admin
+
+### add Answer forbidden
+POST localhost:8080/answer/1
+Content-Type: application/json
+Authorization: Basic admin admin
+
+{
+  "answer": "Yes"
+}
+
+### add Answer
+POST localhost:8080/answer/5
+Content-Type: application/json
+Authorization: Basic 111 111
+
+{
+  "answer": "Yes"
+}
+
+### get answers by userId
+GET localhost:8080/answer/getAllByUserId/2
+Authorization: Basic admin admin
+
+### get answers by quizResultId
+GET localhost:8080/answer/getAllByQuizResultId/1
+Authorization: Basic admin admin

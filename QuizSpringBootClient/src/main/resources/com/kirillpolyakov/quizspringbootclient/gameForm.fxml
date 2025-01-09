@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="607.0" stylesheets="@main2.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kirillpolyakov.quizspringbootclient.controller.GameFormController">
+    <children>
+      <TabPane fx:id="tabPaneQuiz" prefWidth="600.0" />
+    </children>
+</AnchorPane>
