@@ -32,7 +32,7 @@
 ![Данные об играх пользователя, информация о пользователе](https://github.com/user-attachments/assets/ace88843-c0bf-4cf0-893d-03335f0c2bba)
 
 ### Статистика конкретной игры. Права: Администратор
-![Статистика конкретной игры пользователя](https://github.com/user-attachments/assets/d44b5aca-8208-4aff-a05f-3ae717c83274)
+![Статистика конкретной игры пользователя](https://github.com/user-attachments/assets/d44b5aca-8208-4aff-a05f-3ae717c83274) 
 
 ### Общая статистика пользователя. Права: Администратор
 ![Общая статистика пользователя](https://github.com/user-attachments/assets/3330aadb-2404-4f29-a10e-928ce1a38728)
